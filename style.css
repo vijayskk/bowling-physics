@@ -1,0 +1,12 @@
+canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.reset{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+}
