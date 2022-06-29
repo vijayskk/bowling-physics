@@ -94,7 +94,10 @@ world.addBody(ballBody)
 
 function animate(){
 
-  world.step(timeStep)
+  if(isLoaded){
+    world.step(timeStep)
+  }
+
 
   ground.position.copy(groundBody.position)
   ground.quaternion.copy(groundBody.quaternion)
